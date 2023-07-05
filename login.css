@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 50%;
+    margin: 24px auto 82px auto;
+    border-radius: 10px;
+    padding: 24px 197px;
+    display: flex;
+    flex-direction: column;
+    background: #191E2E;
+}
+
+body {
+    background-color: #1E2538;
+}
+
+.form-input {
+    background-color: #1E2538;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 17px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.5%;
+    padding: 20px 26px;
+    margin-bottom: 14px;
+    border: none;
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.form-btn {
+    border-radius: 10px;
+    background: #F2F60F;
+    color: #151A26;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.5%;
+    padding: 14px 0;
+    margin-bottom: 14px;
+    transition: 1s;
+    border: 1px solid #151A26;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form-btn2 {
+    background-color: #1E2538;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.5%;
+    padding: 20px 26px;
+    margin-bottom: 14px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    transition: 1s;
+}
+
+.restore-btn {
+    display: inline-block;
+    text-align: center;
+    color: rgb(101, 101, 167);
+}
+
+.form-input:focus {
+    border: 1px solid #F2F60F;
+}
+
+.form-btn:hover {
+    border: 1px solid #F2F60F;
+    background-color: #151A26;
+    color: #F2F60F;
+}
+
+.form-btn2:hover {
+    box-shadow: 0 0 10px #3657CB;
+}
+
+.restore-btn:hover {
+    text-decoration: none;
+}
+
+.policy {
+    color: #FFF;
+    font-size: 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.2%;
+    margin-bottom: 10px;
+}
+.policy-link{
+    color: #F2F60F;
+}
+.wrapper2{
+    margin-bottom: 20px;
+}
+.wrapper3{
+    display: flex;
+    justify-content: space-between;
+}
+.form-btn3, .form-input2{
+    width: 48%;
+}
+.form-btn3{
+    background-color: #3657CB;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+@media(max-width:1200px){
+    form{
+        width: 100%;
+        padding: 40px;
+    }
+}
